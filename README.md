@@ -8,9 +8,7 @@ Use with Nginx and Debian.
 
 	$ git clone https://github.com/petrkle/le-cron.git
 
-	$ cd le-cron
-
-	$ sudo make init
+	$ sudo le-cron/setup.sh
 
 Then edit list of your domains in /home/letsencrypt/domains.txt, add
 your email address to /home/letsencrypt/config.sh
@@ -50,4 +48,3 @@ and finaly add new certs to nginx conf:
 
  * git
  * sudo
- * make
