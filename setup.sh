@@ -57,6 +57,4 @@ else
    exit 1
 fi
 
-cd `dirname $0`
-
 cp -v $LE_CRON $LE_HOME
