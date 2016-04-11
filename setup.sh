@@ -56,3 +56,7 @@ else
    echo "Cron task for $LE_CRON alredy exist." 1>&2
    exit 1
 fi
+
+cd `dirname $0`
+
+cp -v $LE_CRON $LE_HOME
