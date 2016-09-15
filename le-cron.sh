@@ -10,7 +10,7 @@ LASTRUN=$LE_DIR/lastrun
 
 chown -R letsencrypt.users $LE_DIR/bin/
 
-sudo -u letsencrypt $LE_DIR/bin/letsencrypt.sh --cron --config $LE_DIR/config.sh
+sudo -u letsencrypt $LE_DIR/bin/dehydrated --cron --config $LE_DIR/config.sh
 
 chown -R nginx.www-data $LE_DIR/certs
 

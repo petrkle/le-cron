@@ -31,9 +31,9 @@ fi
 
 cd $LE_HOME
 
-git clone https://github.com/lukas2511/letsencrypt.sh.git bin
+git clone https://github.com/lukas2511/dehydrated.git bin
 cd bin
-git checkout v0.1.0
+git checkout v0.3.1
 cd ..
 
 echo "WELLKNOWN=\"$LE_HOME/www\"
