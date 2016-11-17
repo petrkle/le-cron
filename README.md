@@ -1,6 +1,6 @@
 # le-cron #
 
-Cron script for [letsencrypt.sh](https://github.com/lukas2511/letsencrypt.sh)
+Cron script for [dehydrated](https://github.com/lukas2511/dehydrated)
 
 Use with Nginx and Debian.
 
